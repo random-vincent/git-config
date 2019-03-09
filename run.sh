@@ -14,6 +14,6 @@ git config --global alias.test 'checkout test'
 git config --global user.name $1
 git config --global user.email $2
 git  config  --global core.excludesfile   ~/.gitingore_global
-echo '.DS_Store' > ~/.gitingore_global
+echo '.DS_Store' >> ~/.gitingore_global
 echo 'GIT CONFIG RESULT:\n'
 git config --list
