@@ -1,7 +1,7 @@
 # git-config
 
 ## description 
-Script what could help config git alias.
+Script what could help config git alias and global ignore.
 All right, that's just bash script.
 Save coder time, enjoy more code beauty.
 
