@@ -5,12 +5,20 @@ Script what could help config git alias.
 All right, that's just bash script.
 Save coder time, enjoy more code beauty.
 
-## run script after clone 
-```Bash
-cd ./git-config
-chmod +x run.sh
-./run.sh [user's name] [user'email]
-```
+## usage
+
+1. clone this repo
+    ```Bash
+    git clone https://github.com/anblandy/git-config.git
+    ```
+2. run script
+
+    change cwd , add executable authority and then run script
+    ```Bash
+    cd ./git-config
+    chmod +x run.sh
+    ./run.sh [user's name] [user'email]
+    ```
 
 ## author
 
