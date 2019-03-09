@@ -9,7 +9,7 @@ Save coder time, enjoy more code beauty.
 ```Bash
 cd ./git-config
 chmod +x run.sh
-./run.sh
+./run.sh [user's name] [user'email]
 ```
 
 ## author
