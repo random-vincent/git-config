@@ -11,9 +11,13 @@ git config --global alias.latest 'for-each-ref --sort=-committerdate --format=\"
 git config --global alias.master 'checkout master'
 git config --global alias.dev 'checkout dev'
 git config --global alias.test 'checkout test'
+git config --global alias.cp 'cherry-pick'
+git config --global alias.cpc 'cherry-pick --continue'
 git config --global user.name $1
 git config --global user.email $2
 git  config  --global core.excludesfile   ~/.gitingore_global
 echo '.DS_Store' >> ~/.gitingore_global
 echo 'GIT CONFIG RESULT:\n'
 git config --list
+
+echo '============ GIT CONFIG SUCCESS =============='
